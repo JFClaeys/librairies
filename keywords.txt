@@ -1,0 +1,7 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+TSeqElem	KEYWORD1
+TAscii	KEYWORD1
+alphas	KEYWORD1
