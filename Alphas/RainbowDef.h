@@ -1,3 +1,5 @@
+#ifndef RAINBOW_DEFINITIONS_H_
+#define RAINBOW_DEFINITIONS_H_
 
 #define CIRCLE_ANGLES 360
 
@@ -38,3 +40,5 @@ const uint8_t lights[CIRCLE_ANGLES] PROGMEM = {
   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   
   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   
   0,   0,   0,   0,   0,   0,   0,   0,   0,   0};
+
+#endif //RAINBOW_DEFINITIONS_H_

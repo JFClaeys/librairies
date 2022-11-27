@@ -1,3 +1,5 @@
+#ifndef ALPHAS_LIB_H
+#define ALPHAS_LIB_H
 /*enum SeqType {
   sqDATA,    //data is to be used as such
   sqCHAR     //data will be the xth cahr in alphas array  
@@ -64,3 +66,5 @@ const TAscii alphas[] PROGMEM = {
 };
 
 #define NUM_OF(x) (sizeof(x)/sizeof(x[0]))
+
+#endif// ALPHAS_LIB_H
