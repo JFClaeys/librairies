@@ -5,9 +5,9 @@
 
 /***************************Definition**********************************/
 
-#define ALIAS_LENGTH 10
+#define ALIAS_LENGTH 11
 #define MANUFACT_LENGTH 3
-#define MCU_LENGTH 3
+#define MCU_LENGTH 4
 
 const String ManuFacturers[MANUFACT_LENGTH ] = {
   "XIAO",
@@ -18,7 +18,8 @@ const String ManuFacturers[MANUFACT_LENGTH ] = {
 const String MCU_Models[MCU_LENGTH ] {
   "C3",
   "S3",
-  "DevKitC V4"
+  "DevKitC V4",
+  "C6"
 };
 
 typedef struct {
@@ -29,7 +30,7 @@ typedef struct {
 } Chip_Definition;
 
 const Chip_Definition Chip_Alias[ALIAS_LENGTH] = {
-  {0,    0,    15493324,   1},    //ESP32-C3 XIAO 1
+  {0,    0,    15493324,   1},    //ESP32-C3 XIAO 1  - dead
   {1,    0,      207720,   1},    //ESP32-C3 Lolin pico 1
   {1,    0,     1822096,   2},    //ESP32-C3 Lolin pico 2
   {1,    0,      272564,   3},    //ESP32-C3 Lolin pico 3
@@ -39,6 +40,7 @@ const Chip_Definition Chip_Alias[ALIAS_LENGTH] = {
   {2,    2,     2533560,   1},    //ESP32-DevKitC V4 WROOOM 1
   {2,    2,    12800616,   2},    //ESP32-DevKitC V4 WROOOM 2
   {2,    2,    12799352,   3},    //ESP32-DevKitC V4 WROOOM 3
+  {0,    3,    16776886,   1},    //ESP32-C6 XIAO 1
 };
 
 /*************************************************************************/
